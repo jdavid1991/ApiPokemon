@@ -51,6 +51,9 @@ function mostrarPokemon(pokemon){
     tipo.textContent = "Tipo2: " + pokemon.types[1].type.name;
     tipo.style.fontSize = "15pt"
     informacionPoke.appendChild(tipo)
-
+    
 }
+    function minusculas(e){
+    e.value = e.value.toLowerCase()
+    }
 
