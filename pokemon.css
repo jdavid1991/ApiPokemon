@@ -1,0 +1,87 @@
+body{
+  background-color: #0d1d3d;
+  margin: 20px;
+}
+
+#idpokemon{
+  max-width:500px;
+  height: 100%;
+  border-radius: 7px;
+  margin-top: 30px;
+  background-color: #ECECEC;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+/* p{
+  height: 150px;
+  width: 150px;
+  color:darkblue;
+  border: 1px black solid;
+  border-radius: 5%;
+  box-shadow: 2px 2px 9px #0D1D3E;
+  margin: 9px;
+}  */
+
+img{
+  height: 180px;
+  width: 180px;
+  color:darkblue;
+  border: 1px black solid;
+  border-radius: 5px;
+  box-shadow: 2px 2px 9px #0D1D3E;
+  margin: 9px 0 50px 0;
+} 
+
+#imagen{
+
+  display: flex;
+  flex-wrap: wrap ;
+  justify-content:space-evenly;
+
+}
+
+.bus{
+  font-size: 13pt;
+  cursor: pointer;
+  background-color: #343A40;
+  color: aliceblue;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+}
+.bus:hover{
+  font-size: 13pt;
+  cursor: pointer;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 5px;
+
+}
+#idpok{
+  font-size: 11pt;
+}
+
+/* img:hover{
+  background-color: aliceblue;
+  height: 180px;
+  width: 180px;
+  color:darkblue; */
+/* } */
+
+p:hover{
+  background-color: aliceblue;
+  width: 180px;
+  color:darkblue;
+}
+
+.pokebola{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
